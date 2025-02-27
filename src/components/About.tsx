@@ -1,6 +1,6 @@
 import React from "react";
 import { Download } from "lucide-react";
-import img from "../assets/image.png";
+import img from "../assets/image-JWRT0BEh.png";
 import resume from "../assets/Jeyaraman_Resume.pdf";
 
 export default function About() {
