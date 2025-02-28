@@ -1,32 +1,40 @@
+import project1 from "../assets/project1.jpg";
+import project2 from "../assets/project2.jpg";
+import project3 from "../assets/project3.png";
+
 export const projectsData = [
   {
-    title: "E-commerce Platform",
+    title: "Vinculo ~ An E-commerce Website",
     description:
-      "A full-stack e-commerce platform with real-time inventory management and payment processing.",
-    image:
-      "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80",
-    tags: ["React", "Node.js", "Express", "MongoDB", "Razorpay"],
-    demoUrl: "https://vinculoshop.com/",
-    githubUrl: "https://github.com/TheVinculoShop/Ecommerce",
+      "Developed a fully functional e-commerce platform with user authentication, product search, shopping cart, checkout, and payment system integration.",
+    image: project1,
+    tags: [
+      "React.js",
+      "Node.js",
+      "MongoDB",
+      "Express",
+      "ShipRocket",
+      "Razorpay",
+    ],
+    demoUrl: "https://vinculoshop.com",
+    githubUrl: "https://vinculoshop.com",
   },
   {
-    title: "Task Management App",
+    title: "BILLZZY Landing Page",
     description:
-      "A collaborative task management application with real-time updates and team features.",
-    image:
-      "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80",
-    tags: ["Next.js", "TypeScript", "Prisma", "Tailwind"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
+      "A modern and responsive landing page designed to attract business owners and streamline order management with automation.",
+    image: project2,
+    tags: ["React", "TypeScript", "Tailwind CSS"],
+    demoUrl: "https://tech-vaseegrah.vercel.app/",
+    githubUrl: "https://github.com/Jagan6923/Tech-vaseegrah.git",
   },
   {
-    title: "AI Image Generator",
+    title: "GYM To-Do Application",
     description:
-      "An AI-powered image generation tool using state-of-the-art machine learning models.",
-    image:
-      "https://images.unsplash.com/photo-1547954575-855750c57bd3?auto=format&fit=crop&q=80",
-    tags: ["React", "Python", "TensorFlow", "AWS"],
-    demoUrl: "https://example.com",
-    githubUrl: "https://github.com",
+      "A gym To-Do app with exercise tracking, API-driven data management, and automated motivational quotes on app launch.",
+    image: project3,
+    tags: ["MongoDB", "Express.js", "React", "Node.js"],
+    demoUrl: "https://github.com/Jagan6923/Note-taking-app-for-GYM",
+    githubUrl: "https://github.com/Jagan6923/Note-taking-app-for-GYM",
   },
 ];

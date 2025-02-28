@@ -1,24 +1,18 @@
 export const certificationsData = [
   {
-    title: 'AWS Certified Solutions Architect',
-    organization: 'Amazon Web Services',
-    date: 'December 2023',
-    credentialUrl: 'https://example.com',
-    logo: 'https://images.unsplash.com/photo-1614624532983-4ce03382d63d?auto=format&fit=crop&q=80',
+    title: "Getting Started with Artificial Intelligence",
+    organization: "IBM SkillsBuild",
+    date: "November 2024",
+    credentialUrl:
+      "https://www.credly.com/badges/964371d2-7512-42c1-bc75-c301013f36cb/linked_in_profile",
+    logo: "https://images.credly.com/size/680x680/images/73c08e76-eb9c-4c03-92da-3dad49e99e5a/Getting_Started_With_Artificial_Intelligence_Badge.png",
   },
   {
-    title: 'Professional Full Stack Developer',
-    organization: 'Meta',
-    date: 'October 2023',
-    credentialUrl: 'https://example.com',
-    logo: 'https://images.unsplash.com/photo-1642132652075-2b0036099ae4?auto=format&fit=crop&q=80',
+    title: "Responsive Web Design",
+    organization: "Freecodecamp",
+    date: "October 2024",
+    credentialUrl:
+      "https://www.freecodecamp.org/certification/JEYARAMAN/responsive-web-design",
+    logo: "https://design-style-guide.freecodecamp.org/img/fcc_primary_large.svg",
   },
-  {
-    title: 'Google Cloud Professional Developer',
-    organization: 'Google',
-    date: 'August 2023',
-    credentialUrl: 'https://example.com',
-    logo: 'https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?auto=format&fit=crop&q=80',
-  },
-  
 ];
