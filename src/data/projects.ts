@@ -1,16 +1,16 @@
 import project1 from "../assets/project1.jpg";
 import project2 from "../assets/project2.jpg";
 import project3 from "../assets/project3.png";
-
+import project4 from "../assets/project4.jpg";
 export const projectsData = [
   {
     title: "SecuroSphere",
     description:
       "Fortified web security with authorization and identity and access management.",
-    image: project3,
+    image: project4,
     tags: ["MongoDB", "Java", "React", "SpringBoot"],
-    demoUrl: "https://github.com/Jagan6923/Note-taking-app-for-GYM",
-    githubUrl: "https://github.com/Jagan6923/Note-taking-app-for-GYM",
+    demoUrl: "https://securosphere.in",
+    githubUrl: "https://securosphere.in",
   },
 
   {
