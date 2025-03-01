@@ -4,7 +4,17 @@ import project3 from "../assets/project3.png";
 
 export const projectsData = [
   {
-    title: "Vinculo ~ An E-commerce Website",
+    title: "SecuroSphere",
+    description:
+      "Fortified web security with authorization and identity and access management.",
+    image: project3,
+    tags: ["MongoDB", "Java", "React", "SpringBoot"],
+    demoUrl: "https://github.com/Jagan6923/Note-taking-app-for-GYM",
+    githubUrl: "https://github.com/Jagan6923/Note-taking-app-for-GYM",
+  },
+
+  {
+    title: "Vinculo - An E-commerce Website",
     description:
       "Developed a fully functional e-commerce platform with user authentication, product search, shopping cart, checkout, and payment system integration.",
     image: project1,
