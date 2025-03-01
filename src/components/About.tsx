@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { Download } from "lucide-react";
 import img from "../assets/image-JWRT0BEh.png";
 import resume from "../assets/Jeyaraman_Resume.pdf";
 
 export default function About() {
+  const [videoLoaded, setVideoLoaded] = useState(false);
+
   return (
     <section id="about" className="py-20 bg-white dark:bg-gray-900">
       <div className="container mx-auto px-4">
@@ -13,14 +15,26 @@ export default function About() {
           </h2>
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative">
-              <div className="aspect-square rounded-3xl overflow-hidden">
+              {!videoLoaded && (
                 <img
                   src={img}
                   alt="Profile"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover rounded-3xl transition-opacity duration-500"
                 />
-              </div>
-              <div className="absolute inset-0 bg-gradient-to-tr rounded-3xl" />
+              )}
+
+              <iframe
+                className={`w-full h-64 md:h-80 rounded-3xl transition-opacity duration-500 ${
+                  videoLoaded ? "opacity-100" : "opacity-0"
+                }`}
+                src="https://www.youtube.com/embed/tXHOdWJ-EYk?autoplay=1&mute=1"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+                onLoad={() => setVideoLoaded(true)}
+              ></iframe>
             </div>
             <div>
               <h3 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-white">
